@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list textarea {
+  
+  padding: 10px;
+}
+
+.add-item {
+  position: relative;
+
+
+  .btn {
+      margin-top: 10px;
+      float: right;
+  }
+}

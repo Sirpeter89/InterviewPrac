@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  flex-direction: row;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.todo-item {
+  display: flex;
+}
+
+.item-text {
+  flex-grow: 1;
+}
+
+.item-controls {
+  flex-shrink: 0;
+  .btn-success {
+    margin-right: 10px;
+  }
+}
